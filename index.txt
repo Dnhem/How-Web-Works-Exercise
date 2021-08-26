@@ -1,0 +1,45 @@
+1) What is HTTP?
+
+Hyper Text Transfer Protocol is a way for a client (browser) to retrieve/send data from/to server. 
+
+2) What is URL?
+
+Uniform Resource Locator is an address to a resource (website).
+
+3) What is DNS?
+
+Domain Name Server is analagous to a phone book. It converts URL (website names) to an IP Address (Unique 'Phone Number').
+
+4) What is a query string?
+
+A query string are key value pairs added to the end of a url to request additional resource data.
+
+5) List two HTTP verbs and their use cases
+
+GET - retrieve (readable) data from a server causing no side effects.
+POST - send data to a server causing side effects.
+
+6) What is an HTTP request?
+
+A request made from the client (browser) to a server and receiving data back (HTML for a webpage)
+
+7) What is an HTTP response?
+
+A response from the server sending data back to the client, which can be HTML/JSON data.
+
+8) What is an HTTP header? Give a couple examples of request and response headers you have seen.
+
+Headers are additional information about the request/response. A couple request headers I have seen are Host and Cookie. Some from response headers are Last-Modified and Cache-Control. 
+
+9) What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+-The browser makes a request
+-DNS converts the url into an IP address 
+-Network uses IP to request resource from server
+-Server sends back resource to client
+-Client parses resource into proper format (HTML, CSS, JS)
+-Client receives resource in human readable form to interact with
+
+
+
+
